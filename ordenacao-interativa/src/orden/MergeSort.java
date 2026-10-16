@@ -33,7 +33,7 @@ public class MergeSort {
     private static void merge(int[] arr, int[] metadeEsquerda, int[] metadeDireita) {
         int i = 0, j = 0, k = 0;
         while (i < metadeEsquerda.length && j < metadeDireita.length) {
-            if (metadeEsquerda[i] < metadeDireita[j]) {
+            if (metadeEsquerda[i] <= metadeDireita[j]) {
                 arr[k++] = metadeEsquerda[i++];
             } else {
                 arr[k++] = metadeDireita[j++];

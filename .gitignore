@@ -1,0 +1,6 @@
+build/
+out/
+.idea/
+*.iml
+exemplo-uso/lib/
+exemplo-uso/out/
